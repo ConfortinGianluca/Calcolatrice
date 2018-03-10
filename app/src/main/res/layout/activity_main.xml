@@ -8,6 +8,7 @@
     tools:layout_editor_absoluteY="81dp">
 
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
@@ -242,14 +243,18 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="409dp"
+        android:layout_width="0dp"
         android:layout_height="83dp"
+        android:layout_marginTop="258dp"
         android:text="5+3"
         android:textAlignment="textEnd"
         android:textColor="@android:color/background_dark"
         android:textSize="36sp"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="157dp" />
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </android.support.constraint.ConstraintLayout>

@@ -9,8 +9,8 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="264dp"
-        android:layout_marginTop="60dp"
+        android:layout_height="246dp"
+        android:layout_marginTop="90dp"
         android:stretchColumns="*"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,8 +44,7 @@
                 android:layout_height="match_parent"
                 android:text="C"
                 android:textColor="@android:color/holo_red_dark"
-                android:textSize="18sp"
-               />
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/bParentesi"
@@ -189,7 +188,7 @@
                 android:layout_height="match_parent"
                 android:text="-"
                 android:textColor="@android:color/holo_blue_dark"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 tools:layout_editor_absoluteX="210dp"
                 tools:layout_editor_absoluteY="331dp" />
         </TableRow>
@@ -311,6 +310,18 @@
         </TableRow>
 
     </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_height="83dp"
+        android:layout_marginTop="8dp"
+        android:text="5+3"
+        android:textAlignment="viewEnd"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
